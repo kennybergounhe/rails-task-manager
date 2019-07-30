@@ -1,0 +1,46 @@
+// Place all the styles related to the Tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h6 {
+  margin-top: 4px;
+}
+
+h4 {
+  margin-bottom: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+a:visited {
+  color: black;
+}
+input {
+  margin: 15px 0.5ex;
+}
+
+#status-color {
+  color: red;
+}
+
+.create-task {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: linear-gradient(#167FFB, #0F60C4);
+  transition: background 0.3s ease;
+  border: 1px solid #0F60C4;
+  width: 145px;
+}
+
+.create-task:hover {
+  background: linear-gradient(#147EFF, #0F67DA);
+  color: white;
+  width: 145px;
+}
